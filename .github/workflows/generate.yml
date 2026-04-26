@@ -1,0 +1,27 @@
+name: Generate aviation JSON
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # cada 10 minuts
+  workflow_dispatch:        # botó manual
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate and publish aviation JSON
+        run: |
+          python generate_aviation.py
