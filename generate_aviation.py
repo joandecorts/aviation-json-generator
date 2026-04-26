@@ -1,13 +1,13 @@
 """
 generate_aviation.py
 
-Generador de JSON d'aviació (METAR + TAF)
-- Fonts: NOAA Aviation Weather Center (JSON oficial)
-- Aeroports inicials: LEGE, LEBL
-- Resultat: POST a joandecorts.io/update_aviation.php
+Genera un aviation.json ESTRUCTURAT (JSON real)
+a partir de l'API oficial NOAA Aviation Weather Center.
 
-👉 Per afegir aeroports:
-    Afegeix el codi ICAO a la llista AIRPORTS
+Aquesta versió:
+✅ construeix dicts Python
+✅ genera JSON vàlid
+✅ compatible amb metar-taf-obs.html
 """
 
 import requests
@@ -22,50 +22,70 @@ AIRPORTS = {
     "LEBL": "Barcelona – El Prat",
 }
 
-# Endpoints NOAA (JSON)
 METAR_URL = "https://www.aviationweather.gov/api/data/metar"
 TAF_URL   = "https://www.aviationweather.gov/api/data/taf"
 
-# Endpoint receptor (la teva web)
 PUBLISH_URL = "https://www.joandecorts.io/update_aviation.php"
-PUBLISH_KEY = "pr8943p3mk902J9023N09"  # ← la mateixa clau que ja tens
+PUBLISH_KEY = "pr8943p3mk902J9023N09"
 
 # ─────────────────────────────────────────────
-# FUNCIONS
+# FUNCIONS AUXILIARS
 # ─────────────────────────────────────────────
 
-def fetch_metar(icao):
-    r = requests.get(
-        METAR_URL,
-        params={"ids": icao, "format": "json"},
-        timeout=10
-    )
+def get_json(url, params):
+    """Crida NOAA i retorna JSON (raise si hi ha error)."""
+    r = requests.get(url, params=params, headers={"Accept": "application/json"}, timeout=10)
     r.raise_for_status()
-    data = r.json()
-    return data[0] if data else None
+    return r.json()
 
-def fetch_taf(icao):
-    r = requests.get(
-        TAF_URL,
-        params={"ids": icao, "format": "json"},
-        timeout=10
-    )
-    r.raise_for_status()
-    data = r.json()
-    return data[0] if data else None
+def parse_metar(raw):
+    """Converteix el METAR NOAA en un objecte senzill."""
+    if not raw:
+        return None
+
+    return {
+        "issued": raw.get("reportTime"),
+        "raw": raw.get("rawOb"),
+        "fields": {
+            "category": raw.get("fltCat"),
+            "visibility_m": 10000 if raw.get("visib") == "6+" else None,
+            "ceiling_ft": raw.get("clds", [{}])[0].get("base") if raw.get("clds") else None,
+            "wind": {
+                "dir": str(raw.get("wdir")).zfill(3) if raw.get("wdir") is not None else None,
+                "speed_kt": raw.get("wspd"),
+                "gust_kt": None,
+            },
+            "temp_c": raw.get("temp"),
+            "dewpoint_c": raw.get("dewp"),
+            "qnh_hpa": raw.get("altim"),
+        }
+    }
+
+def parse_taf(raw):
+    """Converteix el TAF NOAA en objecte simple."""
+    if not raw:
+        return None
+
+    return {
+        "issued": raw.get("issueTime"),
+        "raw": raw.get("rawTAF"),
+    }
 
 # ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
 
 def main():
-    airports_output = []
+    airports_out = []
 
     for icao, name in AIRPORTS.items():
-        metar = fetch_metar(icao)
-        taf   = fetch_taf(icao)
+        metar_raw = get_json(METAR_URL, {"ids": icao, "format": "json"})
+        taf_raw   = get_json(TAF_URL,   {"ids": icao, "format": "json"})
 
-        airports_output.append({
+        metar = parse_metar(metar_raw[0]) if metar_raw else None
+        taf   = parse_taf(taf_raw[0])     if taf_raw else None
+
+        airports_out.append({
             "icao": icao,
             "name": name,
             "metar": metar,
@@ -74,10 +94,9 @@ def main():
 
     payload = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
-        "airports": airports_output
+        "airports": airports_out
     }
 
-    # Publica el JSON a la teva web
     r = requests.post(
         f"{PUBLISH_URL}?key={PUBLISH_KEY}",
         json=payload,
@@ -86,7 +105,7 @@ def main():
     )
     r.raise_for_status()
 
-    print("JSON publicat correctament")
+    print("✅ JSON estructurat publicat correctament")
 
 if __name__ == "__main__":
     main()
