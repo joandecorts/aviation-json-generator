@@ -1,9 +1,7 @@
 name: Generate aviation JSON
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"   # cada 10 minuts
-  workflow_dispatch:        # botó manual
+  workflow_dispatch:
 
 jobs:
   generate:
