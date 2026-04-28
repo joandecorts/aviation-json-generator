@@ -11,6 +11,7 @@ Aquesta versió:
 """
 
 import requests
+import time
 from datetime import datetime, timezone
 
 # ─────────────────────────────────────────────
@@ -32,11 +33,32 @@ PUBLISH_KEY = "pr8943p3mk902J9023N09"
 # FUNCIONS AUXILIARS
 # ─────────────────────────────────────────────
 
-def get_json(url, params):
-    """Crida NOAA i retorna JSON (raise si hi ha error)."""
-    r = requests.get(url, params=params, headers={"Accept": "application/json"}, timeout=10)
-    r.raise_for_status()
-    return r.json()
+def get_json(url, params, retries=3, timeout=30):
+    """Crida NOAA i retorna JSON.
+
+    NOAA/AviationWeather a vegades triga a respondre. Fem alguns reintents
+    abans de fallar perquè el workflow no peti per un timeout puntual.
+    """
+    last_error = None
+
+    for attempt in range(1, retries + 1):
+        try:
+            r = requests.get(
+                url,
+                params=params,
+                headers={"Accept": "application/json"},
+                timeout=timeout
+            )
+            r.raise_for_status()
+            return r.json()
+        except requests.exceptions.RequestException as e:
+            last_error = e
+            print(f"⚠️ Intent {attempt}/{retries} fallit per {url}: {e}")
+
+            if attempt < retries:
+                time.sleep(5 * attempt)
+
+    raise last_error
 
 def parse_metar(raw):
     """Converteix el METAR NOAA en un objecte senzill."""
