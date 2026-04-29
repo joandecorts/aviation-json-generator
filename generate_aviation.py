@@ -8,8 +8,13 @@ Aquesta versió:
 ✅ construeix dicts Python
 ✅ genera JSON vàlid
 ✅ compatible amb metar-taf-obs.html
+✅ reintents NOAA/AviationWeather
+✅ només publica si canvia algun issued METAR/TAF
+✅ actualitza data/aviation_last.json com a cache al repo
 """
 
+import json
+import os
 import requests
 import time
 from datetime import datetime, timezone
@@ -28,6 +33,8 @@ TAF_URL   = "https://www.aviationweather.gov/api/data/taf"
 
 PUBLISH_URL = "https://www.joandecorts.io/update_aviation.php"
 PUBLISH_KEY = "pr8943p3mk902J9023N09"
+
+CACHE_PATH = os.path.join("data", "aviation_last.json")
 
 # ─────────────────────────────────────────────
 # FUNCIONS AUXILIARS
@@ -60,6 +67,7 @@ def get_json(url, params, retries=3, timeout=30):
 
     raise last_error
 
+
 def parse_metar(raw):
     """Converteix el METAR NOAA en un objecte senzill."""
     if not raw:
@@ -83,6 +91,7 @@ def parse_metar(raw):
         }
     }
 
+
 def parse_taf(raw):
     """Converteix el TAF NOAA en objecte simple."""
     if not raw:
@@ -92,6 +101,83 @@ def parse_taf(raw):
         "issued": raw.get("issueTime"),
         "raw": raw.get("rawTAF"),
     }
+
+
+def load_cached_payload():
+    """Llegeix data/aviation_last.json si existeix."""
+    if not os.path.exists(CACHE_PATH):
+        print(f"ℹ️ Cache no trobada: {CACHE_PATH}")
+        return None
+
+    try:
+        with open(CACHE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"⚠️ No puc llegir la cache {CACHE_PATH}: {e}")
+        return None
+
+
+def issued_signature(payload):
+    """Retorna una signatura estable dels issued METAR/TAF per aeroport."""
+    if not payload:
+        return None
+
+    signature = []
+
+    for airport in payload.get("airports", []):
+        icao = airport.get("icao")
+        metar = airport.get("metar") or {}
+        taf = airport.get("taf") or {}
+
+        signature.append({
+            "icao": icao,
+            "metar_issued": metar.get("issued"),
+            "taf_issued": taf.get("issued"),
+        })
+
+    return sorted(signature, key=lambda x: x.get("icao") or "")
+
+
+def has_new_data(new_payload, old_payload):
+    """Decideix si cal publicar comparant issued METAR/TAF."""
+    new_sig = issued_signature(new_payload)
+    old_sig = issued_signature(old_payload)
+
+    if old_sig is None:
+        print("✅ No hi ha signatura anterior: publico.")
+        return True
+
+    if new_sig != old_sig:
+        print("✅ Detectat canvi d'issued: publico.")
+        print("Anterior:", old_sig)
+        print("Nou:", new_sig)
+        return True
+
+    print("⏭️ Mateixos issued METAR/TAF: no publico.")
+    return False
+
+
+def save_cache(payload):
+    """Guarda la còpia local que després commitejarà el workflow."""
+    os.makedirs(os.path.dirname(CACHE_PATH), exist_ok=True)
+
+    with open(CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ Cache actualitzada: {CACHE_PATH}")
+
+
+def publish_payload(payload):
+    """Publica el JSON a Nominalia via PHP receptor."""
+    r = requests.post(
+        f"{PUBLISH_URL}?key={PUBLISH_KEY}",
+        json=payload,
+        headers={"Content-Type": "application/json"},
+        timeout=30
+    )
+    r.raise_for_status()
+    print("✅ JSON estructurat publicat correctament")
+
 
 # ─────────────────────────────────────────────
 # MAIN
@@ -119,15 +205,14 @@ def main():
         "airports": airports_out
     }
 
-    r = requests.post(
-        f"{PUBLISH_URL}?key={PUBLISH_KEY}",
-        json=payload,
-        headers={"Content-Type": "application/json"},
-        timeout=15
-    )
-    r.raise_for_status()
+    cached_payload = load_cached_payload()
 
-    print("✅ JSON estructurat publicat correctament")
+    if not has_new_data(payload, cached_payload):
+        return
+
+    publish_payload(payload)
+    save_cache(payload)
+
 
 if __name__ == "__main__":
     main()
