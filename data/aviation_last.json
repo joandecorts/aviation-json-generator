@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-04-30T23:05:43.697472+00:00",
+  "generated_at_utc": "2026-04-30T23:35:28.067620+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-04-30T23:00:00.000Z",
-        "raw": "METAR LEGE 302300Z 02007KT 9999 FEW008 SCT026 14/13 Q1020 NOSIG",
+        "issued": "2026-04-30T23:30:00.000Z",
+        "raw": "METAR LEGE 302330Z 02007KT 350V050 9999 SCT008 SCT026 15/13 Q1020 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
@@ -16,39 +16,39 @@
             "speed_kt": 7,
             "gust_kt": null
           },
-          "temp_c": 14,
+          "temp_c": 15,
           "dewpoint_c": 13,
           "qnh_hpa": 1020
         }
       },
       "taf": {
-        "issued": "2026-04-30T17:00:00.000Z",
-        "raw": "TAF LEGE 301700Z 3018/0118 03008KT 9999 FEW020 TX26/0113Z TN15/0105Z PROB40 TEMPO 3018/0106 4000 BR BKN012"
+        "issued": "2026-04-30T23:00:00.000Z",
+        "raw": "TAF LEGE 302300Z 0100/0124 03008KT 9999 FEW020 TX23/0113Z TN16/0105Z PROB30 TEMPO 0100/0106 4000 BR BKN012 BECMG 0116/0118 VRB04KT PROB30 TEMPO 0112/0118 4000 RA BKN012 PROB40 TEMPO 0118/0124 4000 BR BKN010"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-04-30T23:00:00.000Z",
-        "raw": "METAR LEBL 302300Z 08013KT 9999 FEW014 18/16 Q1019 NOSIG",
+        "issued": "2026-04-30T23:30:00.000Z",
+        "raw": "METAR LEBL 302330Z 07012KT 9999 FEW014 18/15 Q1020 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "080",
-            "speed_kt": 13,
+            "dir": "070",
+            "speed_kt": 12,
             "gust_kt": null
           },
           "temp_c": 18,
-          "dewpoint_c": 16,
-          "qnh_hpa": 1019
+          "dewpoint_c": 15,
+          "qnh_hpa": 1020
         }
       },
       "taf": {
-        "issued": "2026-04-30T17:00:00.000Z",
-        "raw": "TAF LEBL 301700Z 3018/0118 07010KT 9999 SCT015 TX22/0112Z TN17/0106Z TEMPO 3018/0104 BKN010 TEMPO 0101/0106 01005KT TEMPO 0107/0115 07015G25KT PROB30 TEMPO 0114/0118 FEW080TCU"
+        "issued": "2026-04-30T23:00:00.000Z",
+        "raw": "TAF LEBL 302300Z 0100/0124 07010KT 9999 SCT015 TX22/0112Z TN17/0106Z TEMPO 0100/0106 BKN010 TEMPO 0101/0106 36005KT TEMPO 0107/0115 07018G28KT PROB30 TEMPO 0114/0119 FEW080TCU PROB40 TEMPO 0119/0124 SHRA FEW010TCU"
       }
     }
   ]
