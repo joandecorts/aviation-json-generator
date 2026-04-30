@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-04-30T07:35:24.979690+00:00",
+  "generated_at_utc": "2026-04-30T08:05:37.005385+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-04-30T07:30:00.000Z",
-        "raw": "METAR LEGE 300730Z 03006KT 9999 FEW030 SCT050 15/11 Q1016 NOSIG",
+        "issued": "2026-04-30T08:00:00.000Z",
+        "raw": "METAR LEGE 300800Z 02005KT 340V050 9999 VCSH -RA FEW024 FEW048TCU BKN076 15/11 Q1016 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "030",
-            "speed_kt": 6,
+            "dir": "020",
+            "speed_kt": 5,
             "gust_kt": null
           },
           "temp_c": 15,
@@ -22,16 +22,16 @@
         }
       },
       "taf": {
-        "issued": "2026-04-30T05:00:00.000Z",
-        "raw": "TAF LEGE 300500Z 3006/0106 VRB04KT 9999 FEW030 TX26/3013Z TN12/3006Z PROB40 TEMPO 3006/3008 4000 BR BKN005 PROB30 TEMPO 3006/3007 0600 FG BKN001 BECMG 3010/3013 03008KT PROB40 TEMPO 3018/0103 4000 BR BKN012"
+        "issued": "2026-04-30T07:42:00.000Z",
+        "raw": "TAF AMD LEGE 300742Z 3007/0106 VRB04KT 9999 FEW030 TX26/3013Z TN14/0105Z PROB30 TEMPO 3007/3021 4000 RA SHRA FEW040TCU BECMG 3010/3013 03008KT PROB40 TEMPO 3018/0103 4000 BR BKN012"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-04-30T07:30:00.000Z",
-        "raw": "METAR LEBL 300730Z 06008KT 030V090 9999 SCT010 18/16 Q1016 NOSIG",
+        "issued": "2026-04-30T08:00:00.000Z",
+        "raw": "METAR LEBL 300800Z 06008KT 9999 SCT010 19/16 Q1016 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
@@ -41,7 +41,7 @@
             "speed_kt": 8,
             "gust_kt": null
           },
-          "temp_c": 18,
+          "temp_c": 19,
           "dewpoint_c": 16,
           "qnh_hpa": 1016
         }
