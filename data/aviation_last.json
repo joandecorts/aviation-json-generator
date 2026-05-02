@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-02T17:05:42.169925+00:00",
+  "generated_at_utc": "2026-05-02T17:25:21.227444+00:00",
   "airports": [
     {
       "icao": "LEGE",
@@ -22,8 +22,8 @@
         }
       },
       "taf": {
-        "issued": "2026-05-02T11:00:00.000Z",
-        "raw": "TAF LEGE 021100Z 0212/0312 18010KT 9999 FEW030 SCT050 TX24/0213Z TN13/0306Z BECMG 0218/0221 VRB04KT PROB30 TEMPO 0220/0302 3000 BR"
+        "issued": "2026-05-02T17:00:00.000Z",
+        "raw": "TAF LEGE 021700Z 0218/0318 18010KT 9999 FEW030 SCT050 TX23/0313Z TN13/0306Z BECMG 0218/0221 VRB04KT PROB30 TEMPO 0220/0302 3000 BR"
       }
     },
     {
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-05-02T11:00:00.000Z",
-        "raw": "TAF LEBL 021100Z 0212/0312 07008KT 9999 SCT020 TX21/0212Z TN16/0306Z"
+        "issued": "2026-05-02T17:00:00.000Z",
+        "raw": "TAF LEBL 021700Z 0218/0318 07008KT 9999 SCT020 TX21/0312Z TN16/0306Z TEMPO 0312/0316 RA BKN014"
       }
     }
   ]
