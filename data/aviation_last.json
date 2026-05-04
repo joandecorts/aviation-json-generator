@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-05-04T08:35:21.995854+00:00",
+  "generated_at_utc": "2026-05-04T09:05:27.662186+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-05-04T08:30:00.000Z",
-        "raw": "METAR LEGE 040830Z 21004KT 150V300 9999 FEW080 18/11 Q1011 NOSIG",
+        "issued": "2026-05-04T09:00:00.000Z",
+        "raw": "METAR LEGE 040900Z 17006KT 130V250 CAVOK 20/12 Q1011 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "210",
-            "speed_kt": 4,
+            "dir": "170",
+            "speed_kt": 6,
             "gust_kt": null
           },
-          "temp_c": 18,
-          "dewpoint_c": 11,
+          "temp_c": 20,
+          "dewpoint_c": 12,
           "qnh_hpa": 1011
         }
       },
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-05-04T08:30:00.000Z",
-        "raw": "METAR LEBL 040830Z 18001KT 9999 FEW020 19/15 Q1012 NOSIG",
+        "issued": "2026-05-04T09:00:00.000Z",
+        "raw": "METAR LEBL 040900Z 17006KT 140V200 9999 FEW020 19/16 Q1012 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "180",
-            "speed_kt": 1,
+            "dir": "170",
+            "speed_kt": 6,
             "gust_kt": null
           },
           "temp_c": 19,
-          "dewpoint_c": 15,
+          "dewpoint_c": 16,
           "qnh_hpa": 1012
         }
       },
       "taf": {
-        "issued": "2026-05-04T05:00:00.000Z",
-        "raw": "TAF LEBL 040500Z 0406/0506 31007KT 9999 FEW020 TX21/0412Z TN15/0406Z BECMG 0408/0410 21010KT PROB30 TEMPO 0412/0414 21015G25KT PROB40 TEMPO 0415/0422 4000 RA SHRA FEW015TCU BECMG 0423/0501 33005KT"
+        "issued": "2026-05-04T09:03:00.000Z",
+        "raw": "TAF AMD LEBL 040903Z 0409/0506 31007KT 9999 FEW020 TX21/0412Z TN15/0506Z BECMG 0409/0410 21010KT PROB30 TEMPO 0412/0414 21015G25KT PROB40 TEMPO 0409/0422 4000 RA SHRA FEW015TCU PROB30 TEMPO 0412/0420 3000 TSRA FEW020CB BECMG 0423/0501 33005KT"
       }
     }
   ]
