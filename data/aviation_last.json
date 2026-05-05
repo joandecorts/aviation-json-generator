@@ -1,48 +1,48 @@
 {
-  "generated_at_utc": "2026-05-05T11:25:28.431056+00:00",
+  "generated_at_utc": "2026-05-05T11:35:26.682334+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-05-05T11:00:00.000Z",
-        "raw": "METAR LEGE 051100Z 14009KT 100V170 9999 FEW022 BKN030 18/12 Q1011 NOSIG",
+        "issued": "2026-05-05T11:30:00.000Z",
+        "raw": "METAR LEGE 051130Z 14011KT 100V180 9999 VCSH -RA SCT022 FEW030CB BKN036 17/12 Q1011 NOSIG",
         "fields": {
-          "category": "MVFR",
+          "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
             "dir": "140",
-            "speed_kt": 9,
+            "speed_kt": 11,
             "gust_kt": null
           },
-          "temp_c": 18,
+          "temp_c": 17,
           "dewpoint_c": 12,
           "qnh_hpa": 1011
         }
       },
       "taf": {
-        "issued": "2026-05-05T11:00:00.000Z",
-        "raw": "TAF LEGE 051100Z 0512/0612 VRB04KT 9999 FEW015 SCT020 BKN070 TX22/0513Z TN09/0605Z TEMPO 0512/0515 17010KT PROB40 TEMPO 0514/0520 3000 TSRA FEW030CB BKN040 PROB30 TEMPO 0600/0606 2000 BR BKN010 BECMG 0609/0611 20012KT"
+        "issued": "2026-05-05T11:31:00.000Z",
+        "raw": "TAF AMD LEGE 051131Z 0512/0612 VRB04KT 9999 FEW015 SCT020 BKN070 TX22/0513Z TN09/0605Z TEMPO 0512/0515 17010KT PROB40 TEMPO 0512/0520 3000 TSRA FEW030CB BKN040 PROB30 TEMPO 0600/0606 2000 BR BKN010 BECMG 0609/0611 20012KT"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-05-05T11:00:00.000Z",
-        "raw": "METAR LEBL 051100Z 13004KT 050V190 9999 FEW020TCU SCT030 20/12 Q1011 NOSIG",
+        "issued": "2026-05-05T11:30:00.000Z",
+        "raw": "METAR LEBL 051130Z 13006KT 100V160 9999 FEW020TCU SCT030 19/11 Q1011 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
             "dir": "130",
-            "speed_kt": 4,
+            "speed_kt": 6,
             "gust_kt": null
           },
-          "temp_c": 20,
-          "dewpoint_c": 12,
+          "temp_c": 19,
+          "dewpoint_c": 11,
           "qnh_hpa": 1011
         }
       },
