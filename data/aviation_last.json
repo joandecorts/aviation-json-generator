@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-05-09T17:15:36.893417+00:00",
+  "generated_at_utc": "2026-05-09T17:25:21.459275+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-05-09T17:07:00.000Z",
-        "raw": "SPECI LEGE 091707Z 00000KT 3500 +RA FEW030 BKN050 BKN070 14/12 Q1012 NOSIG",
+        "issued": "2026-05-09T17:23:00.000Z",
+        "raw": "SPECI LEGE 091723Z 00000KT 4500 RA FEW030 BKN050 BKN067 13/11 Q1012 NOSIG",
         "fields": {
           "category": "IFR",
           "visibility_m": null,
@@ -16,14 +16,14 @@
             "speed_kt": 0,
             "gust_kt": null
           },
-          "temp_c": 14,
-          "dewpoint_c": 12,
+          "temp_c": 13,
+          "dewpoint_c": 11,
           "qnh_hpa": 1012
         }
       },
       "taf": {
-        "issued": "2026-05-09T11:00:00.000Z",
-        "raw": "TAF LEGE 091100Z 0912/1012 04008KT 9999 SCT020 TX22/0913Z TN11/1005Z PROB40 TEMPO 0913/0924 4000 TS SHRA FEW020CB BKN040 BECMG 0916/0918 32008KT BECMG 1000/1003 VRB03KT BECMG 1010/1012 20012KT"
+        "issued": "2026-05-09T17:00:00.000Z",
+        "raw": "TAF LEGE 091700Z 0918/1018 32008KT 9999 SCT020 TX26/1013Z TN12/1005Z PROB40 TEMPO 0918/0924 4000 TS SHRA FEW020CB BKN040 BECMG 1000/1003 VRB03KT BECMG 1009/1012 20012KT"
       }
     },
     {
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-05-09T11:00:00.000Z",
-        "raw": "TAF LEBL 091100Z 0912/1012 06012KT 9999 FEW020 TX19/0913Z TN13/1005Z BECMG 0912/0914 03010KT TEMPO 0912/0923 3000 SHRA FEW020TCU PROB40 TEMPO 0912/0918 TSRA FEW020CB BECMG 0918/0920 30010KT BECMG 0922/0924 VRB04KT BECMG 1006/1008 23010KT"
+        "issued": "2026-05-09T17:00:00.000Z",
+        "raw": "TAF LEBL 091700Z 0918/1018 03010KT 9999 FEW020 TX21/1013Z TN13/1005Z TEMPO 0918/0923 3000 SHRA FEW020TCU BECMG 0918/0920 33010KT BECMG 0922/0924 VRB04KT PROB40 TEMPO 1000/1006 27010KT BECMG 1006/1008 24010KT PROB30 TEMPO 1008/1018 24015G25KT"
       }
     }
   ]
