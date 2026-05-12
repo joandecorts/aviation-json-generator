@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-05-12T17:25:31.608641+00:00",
+  "generated_at_utc": "2026-05-12T17:35:41.077837+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-05-12T17:00:00.000Z",
-        "raw": "METAR LEGE 121700Z 19012KT 160V220 9999 FEW015 BKN025 FEW030TCU 16/12 Q1012 NOSIG",
+        "issued": "2026-05-12T17:30:00.000Z",
+        "raw": "METAR LEGE 121730Z 19011KT 9999 FEW015 BKN025 FEW030CB 16/12 Q1012 NOSIG",
         "fields": {
           "category": "MVFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
             "dir": "190",
-            "speed_kt": 12,
+            "speed_kt": 11,
             "gust_kt": null
           },
           "temp_c": 16,
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-05-12T17:00:00.000Z",
-        "raw": "METAR LEBL 121700Z 04006KT 9999 VCSH FEW012CB SCT060 16/13 Q1012 TEMPO 4000 TSRA",
+        "issued": "2026-05-12T17:30:00.000Z",
+        "raw": "METAR LEBL 121730Z VRB02KT 9999 FEW018CB SCT060 17/13 Q1012 TEMPO 4000 TSRA",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "040",
-            "speed_kt": 6,
+            "dir": "VRB",
+            "speed_kt": 2,
             "gust_kt": null
           },
-          "temp_c": 16,
+          "temp_c": 17,
           "dewpoint_c": 13,
           "qnh_hpa": 1012
         }
       },
       "taf": {
-        "issued": "2026-05-12T17:00:00.000Z",
-        "raw": "TAF LEBL 121700Z 1218/1318 VRB04KT 9999 SCT040 TX21/1312Z TN13/1305Z BECMG 1218/1220 34007KT TEMPO 1218/1224 3000 SHRA SCT030TCU PROB40 TEMPO 1218/1220 4000 TSRA FEW012CB SCT040 BECMG 1308/1311 21010KT"
+        "issued": "2026-05-12T15:06:00.000Z",
+        "raw": "TAF AMD LEBL 121506Z 1215/1312 12010KT 9999 BKN020 TX21/1312Z TN14/1305Z TEMPO 1215/1223 06008KT BECMG 1223/1301 35007KT TEMPO 1215/1224 3000 SHRA SCT030TCU PROB40 TEMPO 1215/1220 3000 TSRA FEW030CB BECMG 1309/1311 22012KT"
       }
     }
   ]
