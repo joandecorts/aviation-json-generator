@@ -1,37 +1,37 @@
 {
-  "generated_at_utc": "2026-05-15T13:40:36.603929+00:00",
+  "generated_at_utc": "2026-05-15T14:05:37.838519+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-05-15T13:36:00.000Z",
-        "raw": "SPECI LEGE 151336Z 15004KT 100V200 9000 SHRA FEW020 SCT040TCU BKN045 14/07 Q1005 TEMPO 3000 TSRA SCT020CB",
+        "issued": "2026-05-15T14:01:00.000Z",
+        "raw": "SPECI LEGE 151401Z VRB01KT 3000 +TSRAGR SCT025 SCT030CB BKN040 12/08 Q1005 NOSIG",
         "fields": {
-          "category": "VFR",
+          "category": "IFR",
           "visibility_m": null,
           "ceiling_ft": null,
           "wind": {
-            "dir": "150",
-            "speed_kt": 4,
+            "dir": "VRB",
+            "speed_kt": 1,
             "gust_kt": null
           },
-          "temp_c": 14,
-          "dewpoint_c": 7,
+          "temp_c": 12,
+          "dewpoint_c": 8,
           "qnh_hpa": 1005
         }
       },
       "taf": {
-        "issued": "2026-05-15T11:00:00.000Z",
-        "raw": "TAF LEGE 151100Z 1512/1612 VRB05KT 9999 SCT015 BKN045 TX16/1513Z TN08/1606Z TEMPO 1512/1518 3000 SHRA FEW020TCU TEMPO 1512/1518 3000 TSRA SCT020CB PROB40 TEMPO 1512/1515 1500 +TSRA SCT020CB PROB40 TEMPO 1522/1607 3000 BR BKN005 BECMG 1610/1612 18010KT"
+        "issued": "2026-05-15T14:03:00.000Z",
+        "raw": "TAF AMD LEGE 151403Z 1514/1612 VRB05KT 9999 SCT015 BKN045 TX18/1612Z TN08/1606Z TEMPO 1514/1518 3000 SHRA FEW020TCU TEMPO 1514/1518 3000 TSRA FEW020CB TEMPO 1514/1516 1500 +TSRAGS SCT020CB PROB40 TEMPO 1522/1607 3000 BR BKN005 BECMG 1610/1612 18010KT"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-05-15T13:30:00.000Z",
-        "raw": "METAR LEBL 151330Z 19010KT 9999 FEW020 17/07 Q1005 NOSIG",
+        "issued": "2026-05-15T14:00:00.000Z",
+        "raw": "METAR LEBL 151400Z 19010KT 150V220 9999 FEW020 17/08 Q1005 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
@@ -42,7 +42,7 @@
             "gust_kt": null
           },
           "temp_c": 17,
-          "dewpoint_c": 7,
+          "dewpoint_c": 8,
           "qnh_hpa": 1005
         }
       },
