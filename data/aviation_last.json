@@ -1,43 +1,43 @@
 {
-  "generated_at_utc": "2026-05-18T10:20:26.597113+00:00",
+  "generated_at_utc": "2026-05-18T10:35:30.359025+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-05-18T10:14:00.000Z",
-        "raw": "SPECI LEGE 181014Z 08004KT 030V150 4000 RA SCT025 BKN040 15/12 Q1017 NOSIG",
+        "issued": "2026-05-18T10:30:00.000Z",
+        "raw": "METAR LEGE 181030Z 04001KT 3000 TSRA BKN026 BKN035CB 15/13 Q1017 NOSIG",
         "fields": {
           "category": "IFR",
           "visibility_m": null,
           "ceiling_ft": null,
           "wind": {
-            "dir": "080",
-            "speed_kt": 4,
+            "dir": "040",
+            "speed_kt": 1,
             "gust_kt": null
           },
           "temp_c": 15,
-          "dewpoint_c": 12,
+          "dewpoint_c": 13,
           "qnh_hpa": 1017
         }
       },
       "taf": {
-        "issued": "2026-05-18T05:00:00.000Z",
-        "raw": "TAF LEGE 180500Z 1806/1906 VRB03KT 9999 SCT030 TX20/1813Z TN10/1905Z BECMG 1807/1809 18012KT TEMPO 1810/1822 4000 RA SHRA FEW020TCU PROB30 TEMPO 1812/1820 4000 TSRA FEW020CB BECMG 1815/1818 VRB04KT PROB40 TEMPO 1815/1906 3000 BR BKN010 PROB30 TEMPO 1900/1906 0600 FG VV001"
+        "issued": "2026-05-18T10:33:00.000Z",
+        "raw": "TAF AMD LEGE 181033Z 1810/1906 18012KT 9999 SCT030 TX20/1813Z TN10/1905Z TEMPO 1810/1822 4000 RA SHRA FEW020TCU PROB30 TEMPO 1810/1817 4000 TSRA FEW020CB BECMG 1815/1818 VRB04KT PROB40 TEMPO 1815/1906 3000 BR BKN010 PROB30 TEMPO 1900/1906 0600 FG VV001"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-05-18T10:00:00.000Z",
-        "raw": "METAR LEBL 181000Z 18007KT 140V220 9999 FEW020TCU SCT045 19/15 Q1018 TEMPO SHRA FEW020CB",
+        "issued": "2026-05-18T10:30:00.000Z",
+        "raw": "METAR LEBL 181030Z 19007KT 160V250 9999 FEW020TCU SCT045 19/15 Q1018 TEMPO TS SHRA FEW020CB",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "180",
+            "dir": "190",
             "speed_kt": 7,
             "gust_kt": null
           },
