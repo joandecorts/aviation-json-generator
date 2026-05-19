@@ -1,22 +1,22 @@
 {
-  "generated_at_utc": "2026-05-19T17:35:51.804427+00:00",
+  "generated_at_utc": "2026-05-19T17:40:29.040461+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-05-19T17:00:00.000Z",
-        "raw": "METAR LEGE 191700Z 18008KT 140V230 9999 FEW050 20/14 Q1019 NOSIG",
+        "issued": "2026-05-19T17:30:00.000Z",
+        "raw": "METAR LEGE 191730Z 18007KT 150V210 CAVOK 19/14 Q1019 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
             "dir": "180",
-            "speed_kt": 8,
+            "speed_kt": 7,
             "gust_kt": null
           },
-          "temp_c": 20,
+          "temp_c": 19,
           "dewpoint_c": 14,
           "qnh_hpa": 1019
         }
@@ -30,15 +30,15 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-05-19T17:00:00.000Z",
-        "raw": "METAR LEBL 191700Z 19008KT 9999 SCT010 SCT014 20/17 Q1020 NOSIG",
+        "issued": "2026-05-19T17:30:00.000Z",
+        "raw": "METAR LEBL 191730Z 20007KT 9999 SCT010 BKN013 BKN018 20/17 Q1020 NOSIG",
         "fields": {
-          "category": "VFR",
+          "category": "MVFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "190",
-            "speed_kt": 8,
+            "dir": "200",
+            "speed_kt": 7,
             "gust_kt": null
           },
           "temp_c": 20,
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-05-19T11:00:00.000Z",
-        "raw": "TAF LEBL 191100Z 1912/2012 19010KT 9999 FEW010 TX22/1912Z TN15/2006Z BECMG 1917/1919 VRB04KT TEMPO 1921/2002 BKN010 BECMG 2000/2002 36006KT PROB40 TEMPO 2011/2012 10010KT"
+        "issued": "2026-05-19T17:00:00.000Z",
+        "raw": "TAF LEBL 191700Z 1918/2018 19010KT 9999 FEW010 TX23/2012Z TN15/2006Z BECMG 1918/1919 VRB04KT PROB40 TEMPO 1919/2004 BKN010 BECMG 2008/2010 13007KT"
       }
     }
   ]
