@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-05-23T08:35:38.273540+00:00",
+  "generated_at_utc": "2026-05-23T09:10:29.254687+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-05-23T08:30:00.000Z",
-        "raw": "METAR LEGE 230830Z 14003KT 070V210 CAVOK 22/14 Q1026 NOSIG",
+        "issued": "2026-05-23T09:00:00.000Z",
+        "raw": "METAR LEGE 230900Z 13003KT 060V230 CAVOK 23/15 Q1026 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "140",
+            "dir": "130",
             "speed_kt": 3,
             "gust_kt": null
           },
-          "temp_c": 22,
-          "dewpoint_c": 14,
+          "temp_c": 23,
+          "dewpoint_c": 15,
           "qnh_hpa": 1026
         }
       },
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-05-23T08:30:00.000Z",
-        "raw": "METAR LEBL 230830Z 09003KT CAVOK 25/15 Q1025 BECMG 15010KT",
+        "issued": "2026-05-23T09:00:00.000Z",
+        "raw": "METAR LEBL 230900Z 08008KT CAVOK 24/17 Q1025 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "090",
-            "speed_kt": 3,
+            "dir": "080",
+            "speed_kt": 8,
             "gust_kt": null
           },
-          "temp_c": 25,
-          "dewpoint_c": 15,
+          "temp_c": 24,
+          "dewpoint_c": 17,
           "qnh_hpa": 1025
         }
       },
       "taf": {
-        "issued": "2026-05-23T05:00:00.000Z",
-        "raw": "TAF LEBL 230500Z 2306/2406 20005KT CAVOK TX24/2312Z TN18/2306Z BECMG 2306/2308 15007KT BECMG 2318/2320 VRB04KT"
+        "issued": "2026-05-23T09:02:00.000Z",
+        "raw": "TAF AMD LEBL 230902Z 2309/2406 08008KT CAVOK TX25/2312Z TN18/2405Z BECMG 2309/2311 15008KT BECMG 2317/2319 VRB04KT BECMG 2321/2324 33007KT"
       }
     }
   ]
