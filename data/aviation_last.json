@@ -1,22 +1,22 @@
 {
-  "generated_at_utc": "2026-06-10T11:25:53.805880+00:00",
+  "generated_at_utc": "2026-06-10T11:35:44.935777+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-06-10T11:00:00.000Z",
-        "raw": "METAR LEGE 101100Z 04007KT 350V080 9999 BKN035 18/11 Q1019 NOSIG",
+        "issued": "2026-06-10T11:30:00.000Z",
+        "raw": "METAR LEGE 101130Z 06007KT 010V110 9999 BKN035 19/11 Q1019 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "040",
+            "dir": "060",
             "speed_kt": 7,
             "gust_kt": null
           },
-          "temp_c": 18,
+          "temp_c": 19,
           "dewpoint_c": 11,
           "qnh_hpa": 1019
         }
@@ -30,15 +30,15 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-06-10T11:00:00.000Z",
-        "raw": "METAR LEBL 101100Z 14007KT 110V180 9999 FEW020 SCT057 22/16 Q1019 NOSIG",
+        "issued": "2026-06-10T11:30:00.000Z",
+        "raw": "METAR LEBL 101130Z 15008KT 120V180 9999 FEW020 SCT057 22/16 Q1019 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "140",
-            "speed_kt": 7,
+            "dir": "150",
+            "speed_kt": 8,
             "gust_kt": null
           },
           "temp_c": 22,
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-06-10T11:00:00.000Z",
-        "raw": "TAF LEBL 101100Z 1012/1112 13010KT 9999 FEW025 TX24/1012Z TN19/1105Z BECMG 1018/1020 19005KT BECMG 1100/1102 23006KT PROB30 TEMPO 1101/1108 4000 DZRA BKN025 BECMG 1106/1108 15010KT"
+        "issued": "2026-06-10T10:22:00.000Z",
+        "raw": "TAF AMD LEBL 101022Z 1010/1106 13010KT 9999 FEW025 TX24/1012Z TN19/1105Z BECMG 1018/1020 19005KT BECMG 1100/1102 23006KT PROB30 TEMPO 1101/1106 4000 DZRA BKN025"
       }
     }
   ]
