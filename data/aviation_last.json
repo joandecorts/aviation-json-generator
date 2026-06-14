@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-06-14T04:05:39.648622+00:00",
+  "generated_at_utc": "2026-06-14T07:29:33.545133+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-06-14T04:00:00.000Z",
-        "raw": "METAR LEGE 140400Z VRB01KT CAVOK 14/12 Q1017 NOSIG",
+        "issued": "2026-06-14T07:00:00.000Z",
+        "raw": "METAR LEGE 140700Z VRB01KT CAVOK 23/14 Q1017 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
@@ -16,39 +16,39 @@
             "speed_kt": 1,
             "gust_kt": null
           },
-          "temp_c": 14,
-          "dewpoint_c": 12,
+          "temp_c": 23,
+          "dewpoint_c": 14,
           "qnh_hpa": 1017
         }
       },
       "taf": {
-        "issued": "2026-06-13T23:00:00.000Z",
-        "raw": "TAF LEGE 132300Z 1400/1424 VRB04KT CAVOK TX34/1414Z TN19/1406Z BECMG 1406/1408 03006KT TEMPO 1412/1418 20010KT BECMG 1417/1419 VRB04KT"
+        "issued": "2026-06-14T05:00:00.000Z",
+        "raw": "TAF LEGE 140500Z 1406/1506 VRB04KT CAVOK TX34/1414Z TN18/1406Z BECMG 1406/1408 03006KT TEMPO 1412/1418 20010KT BECMG 1415/1418 VRB04KT"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-06-14T04:00:00.000Z",
-        "raw": "METAR LEBL 140400Z 32010KT 9999 FEW040 22/13 Q1016 NOSIG",
+        "issued": "2026-06-14T07:00:00.000Z",
+        "raw": "METAR LEBL 140700Z 33007G19KT 290V010 CAVOK 25/14 Q1016 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "320",
-            "speed_kt": 10,
+            "dir": "330",
+            "speed_kt": 7,
             "gust_kt": null
           },
-          "temp_c": 22,
-          "dewpoint_c": 13,
+          "temp_c": 25,
+          "dewpoint_c": 14,
           "qnh_hpa": 1016
         }
       },
       "taf": {
-        "issued": "2026-06-13T23:00:00.000Z",
-        "raw": "TAF LEBL 132300Z 1400/1424 34006KT 9999 FEW020 TX30/1412Z TN21/1406Z BECMG 1407/1410 17010KT BECMG 1418/1421 VRB03KT"
+        "issued": "2026-06-14T05:00:00.000Z",
+        "raw": "TAF LEBL 140500Z 1406/1506 34006KT 9999 FEW020 TX30/1412Z TN21/1506Z BECMG 1407/1410 17010KT BECMG 1418/1421 VRB03KT"
       }
     }
   ]
