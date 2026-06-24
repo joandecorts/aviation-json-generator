@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-06-24T17:25:33.448817+00:00",
+  "generated_at_utc": "2026-06-24T17:35:50.043999+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-06-24T17:00:00.000Z",
-        "raw": "METAR LEGE 241700Z 19011KT CAVOK 30/13 Q1015 NOSIG",
+        "issued": "2026-06-24T17:30:00.000Z",
+        "raw": "METAR LEGE 241730Z 17008KT 140V210 CAVOK 30/14 Q1015 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "190",
-            "speed_kt": 11,
+            "dir": "170",
+            "speed_kt": 8,
             "gust_kt": null
           },
           "temp_c": 30,
-          "dewpoint_c": 13,
+          "dewpoint_c": 14,
           "qnh_hpa": 1015
         }
       },
@@ -30,15 +30,15 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-06-24T17:00:00.000Z",
-        "raw": "METAR LEBL 241700Z 20007KT 170V230 CAVOK 28/22 Q1015 NOSIG",
+        "issued": "2026-06-24T17:30:00.000Z",
+        "raw": "METAR LEBL 241730Z 19006KT 150V220 CAVOK 28/22 Q1015 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "200",
-            "speed_kt": 7,
+            "dir": "190",
+            "speed_kt": 6,
             "gust_kt": null
           },
           "temp_c": 28,
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-06-24T17:00:00.000Z",
-        "raw": "TAF LEBL 241700Z 2418/2518 20007KT CAVOK TX32/2512Z TN23/2506Z BECMG 2418/2420 VRB04KT PROB30 TEMPO 2422/2506 3000 BR BECMG 2508/2510 20010KT"
+        "issued": "2026-06-24T11:00:00.000Z",
+        "raw": "TAF LEBL 241100Z 2412/2512 18007KT CAVOK TX32/2412Z TN23/2506Z BECMG 2418/2420 VRB04KT PROB30 TEMPO 2422/2506 3000 BR BECMG 2508/2510 20010KT"
       }
     }
   ]
