@@ -1,22 +1,22 @@
 {
-  "generated_at_utc": "2026-06-28T23:35:32.762435+00:00",
+  "generated_at_utc": "2026-06-29T00:05:32.219689+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-06-28T23:30:00.000Z",
-        "raw": "METAR LEGE 282330Z 34003KT 290V020 CAVOK 22/17 Q1019 NOSIG",
+        "issued": "2026-06-29T00:00:00.000Z",
+        "raw": "METAR LEGE 290000Z VRB01KT CAVOK 21/17 Q1019 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "340",
-            "speed_kt": 3,
+            "dir": "VRB",
+            "speed_kt": 1,
             "gust_kt": null
           },
-          "temp_c": 22,
+          "temp_c": 21,
           "dewpoint_c": 17,
           "qnh_hpa": 1019
         }
@@ -30,15 +30,15 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-06-28T23:30:00.000Z",
-        "raw": "METAR LEBL 282330Z 32010KT 9999 FEW055TCU 29/16 Q1018 NOSIG",
+        "issued": "2026-06-29T00:00:00.000Z",
+        "raw": "METAR LEBL 290000Z 34008KT 310V020 9999 FEW055CB 29/16 Q1018 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "320",
-            "speed_kt": 10,
+            "dir": "340",
+            "speed_kt": 8,
             "gust_kt": null
           },
           "temp_c": 29,
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-06-28T23:00:00.000Z",
-        "raw": "TAF LEBL 282300Z 2900/2924 VRB04KT CAVOK TX31/2912Z TN25/2905Z BECMG 2900/2902 34007KT TEMPO 2902/2905 05010KT BECMG 2908/2910 22012KT TEMPO 2918/2924 22005KT"
+        "issued": "2026-06-29T00:04:00.000Z",
+        "raw": "TAF AMD LEBL 290004Z 2900/2924 34009KT CAVOK TX31/2912Z TN25/2905Z TEMPO 2900/2903 SHRA FEW055TCU PROB30 TEMPO 2900/2903 TSRA FEW055CB TEMPO 2902/2905 05010KT BECMG 2908/2910 22012KT TEMPO 2918/2924 22005KT"
       }
     }
   ]
