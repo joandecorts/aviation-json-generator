@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-07-08T18:45:44.289484+00:00",
+  "generated_at_utc": "2026-07-08T19:05:36.623159+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-07-08T18:30:00.000Z",
-        "raw": "METAR LEGE 081830Z 20008KT CAVOK 31/04 Q1013 NOSIG",
+        "issued": "2026-07-08T19:00:00.000Z",
+        "raw": "METAR LEGE 081900Z 20005KT CAVOK 29/05 Q1013 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
             "dir": "200",
-            "speed_kt": 8,
+            "speed_kt": 5,
             "gust_kt": null
           },
-          "temp_c": 31,
-          "dewpoint_c": 4,
+          "temp_c": 29,
+          "dewpoint_c": 5,
           "qnh_hpa": 1013
         }
       },
@@ -30,19 +30,19 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-07-08T18:30:00.000Z",
-        "raw": "METAR LEBL 081830Z 22006KT CAVOK 28/25 Q1014 NOSIG",
+        "issued": "2026-07-08T19:00:00.000Z",
+        "raw": "METAR LEBL 081900Z 21005KT CAVOK 28/26 Q1014 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "220",
-            "speed_kt": 6,
+            "dir": "210",
+            "speed_kt": 5,
             "gust_kt": null
           },
           "temp_c": 28,
-          "dewpoint_c": 25,
+          "dewpoint_c": 26,
           "qnh_hpa": 1014
         }
       },
