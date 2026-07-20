@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-20T18:05:33.541947+00:00",
+  "generated_at_utc": "2026-07-20T18:10:30.125113+00:00",
   "airports": [
     {
       "icao": "LEGE",
@@ -22,27 +22,27 @@
         }
       },
       "taf": {
-        "issued": "2026-07-20T17:00:00.000Z",
-        "raw": "TAF LEGE 201700Z 2018/2118 18010KT CAVOK TX36/2113Z TN23/2106Z BECMG 2019/2021 VRB04KT PROB30 TEMPO 2103/2105 36010KT BECMG 2106/2108 04010KT BECMG 2115/2117 VRB04KT"
+        "issued": "2026-07-20T18:07:00.000Z",
+        "raw": "TAF AMD LEGE 201807Z 2018/2118 18010KT CAVOK TX36/2113Z TN23/2106Z BECMG 2018/2020 VRB04KT PROB30 TEMPO 2103/2105 36010KT BECMG 2106/2108 04010KT BECMG 2115/2117 VRB04KT"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-07-20T17:42:00.000Z",
-        "raw": "SPECI LEBL 201742Z 19006KT 130V270 9999 SHRA VCTS SCT060CB 28/26 Q1012 TEMPO TSRA",
+        "issued": "2026-07-20T18:00:00.000Z",
+        "raw": "METAR LEBL 201800Z 04003KT 330V110 9999 FEW030 SCT060CB 28/25 Q1012 RESHRA BECMG NSC",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "190",
-            "speed_kt": 6,
+            "dir": "040",
+            "speed_kt": 3,
             "gust_kt": null
           },
           "temp_c": 28,
-          "dewpoint_c": 26,
+          "dewpoint_c": 25,
           "qnh_hpa": 1012
         }
       },
