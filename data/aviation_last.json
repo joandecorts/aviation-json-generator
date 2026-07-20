@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-20T18:10:30.125113+00:00",
+  "generated_at_utc": "2026-07-20T18:15:52.059526+00:00",
   "airports": [
     {
       "icao": "LEGE",
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-07-20T18:00:00.000Z",
-        "raw": "METAR LEBL 201800Z 04003KT 330V110 9999 FEW030 SCT060CB 28/25 Q1012 RESHRA BECMG NSC",
+        "issued": "2026-07-20T18:10:00.000Z",
+        "raw": "SPECI LEBL 201810Z VRB02KT 9999 FEW030 FEW060CB 28/26 Q1012 RESHRA BECMG NSC",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "040",
-            "speed_kt": 3,
+            "dir": "VRB",
+            "speed_kt": 2,
             "gust_kt": null
           },
           "temp_c": 28,
-          "dewpoint_c": 25,
+          "dewpoint_c": 26,
           "qnh_hpa": 1012
         }
       },
       "taf": {
-        "issued": "2026-07-20T17:00:00.000Z",
-        "raw": "TAF LEBL 201700Z 2018/2118 21008KT 9999 SCT060 TX33/2113Z TN25/2105Z TEMPO 2018/2019 VRB15G25KT TSRA FEW060CB BECMG 2020/2023 33005KT BECMG 2106/2109 10010KT"
+        "issued": "2026-07-20T15:09:00.000Z",
+        "raw": "TAF AMD LEBL 201509Z 2015/2112 12010KT 9999 FEW060 TX33/2112Z TN25/2105Z BECMG 2015/2018 22008KT TEMPO 2015/2019 VRB15G25KT TSRA FEW060CB BECMG 2020/2023 33005KT BECMG 2106/2109 10010KT"
       }
     }
   ]
