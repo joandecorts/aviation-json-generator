@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-07-22T17:35:31.330368+00:00",
+  "generated_at_utc": "2026-07-22T17:40:50.590191+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-07-22T17:30:00.000Z",
-        "raw": "METAR LEGE 221730Z 21008KT 180V250 CAVOK 26/05 Q1017 NOSIG",
+        "issued": "2026-07-22T17:00:00.000Z",
+        "raw": "METAR LEGE 221700Z 21009KT 170V240 CAVOK 27/07 Q1016 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
             "dir": "210",
-            "speed_kt": 8,
+            "speed_kt": 9,
             "gust_kt": null
           },
-          "temp_c": 26,
-          "dewpoint_c": 5,
-          "qnh_hpa": 1017
+          "temp_c": 27,
+          "dewpoint_c": 7,
+          "qnh_hpa": 1016
         }
       },
       "taf": {
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-07-22T11:00:00.000Z",
-        "raw": "TAF LEBL 221100Z 2212/2312 10009KT 9999 FEW020 TX31/2213Z TN24/2306Z PROB30 TEMPO 2212/2218 FEW120TCU BECMG 2223/2301 33007KT BECMG 2307/2310 13008KT"
+        "issued": "2026-07-22T17:00:00.000Z",
+        "raw": "TAF LEBL 221700Z 2218/2318 16006KT 9999 FEW020 TX31/2313Z TN24/2306Z BECMG 2218/2220 08006KT BECMG 2223/2302 33007KT BECMG 2307/2310 13008KT"
       }
     }
   ]
