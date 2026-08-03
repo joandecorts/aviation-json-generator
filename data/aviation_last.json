@@ -1,22 +1,22 @@
 {
-  "generated_at_utc": "2026-08-03T17:25:25.794052+00:00",
+  "generated_at_utc": "2026-08-03T17:35:31.910695+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-08-03T17:00:00.000Z",
-        "raw": "METAR LEGE 031700Z 18012KT CAVOK 26/20 Q1010 NOSIG",
+        "issued": "2026-08-03T17:30:00.000Z",
+        "raw": "METAR LEGE 031730Z 17008KT 140V200 9999 FEW024 25/20 Q1010 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "180",
-            "speed_kt": 12,
+            "dir": "170",
+            "speed_kt": 8,
             "gust_kt": null
           },
-          "temp_c": 26,
+          "temp_c": 25,
           "dewpoint_c": 20,
           "qnh_hpa": 1010
         }
@@ -30,8 +30,8 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-08-03T17:00:00.000Z",
-        "raw": "METAR LEBL 031700Z 11008KT 9999 FEW015 BKN024 30/26 Q1009 NOSIG",
+        "issued": "2026-08-03T17:30:00.000Z",
+        "raw": "METAR LEBL 031730Z 11008KT 080V150 9999 FEW015 BKN024 29/26 Q1009 NOSIG",
         "fields": {
           "category": "MVFR",
           "visibility_m": 10000,
@@ -41,14 +41,14 @@
             "speed_kt": 8,
             "gust_kt": null
           },
-          "temp_c": 30,
+          "temp_c": 29,
           "dewpoint_c": 26,
           "qnh_hpa": 1009
         }
       },
       "taf": {
-        "issued": "2026-08-03T17:00:00.000Z",
-        "raw": "TAF LEBL 031700Z 0318/0418 16009KT 9999 FEW025 TX31/0412Z TN25/0406Z BECMG 0318/0319 VRB03KT BECMG 0400/0402 06008KT BECMG 0408/0410 13007KT BECMG 0413/0415 18006KT PROB30 TEMPO 0413/0418 4000 TSRA FEW030CB BECMG 0416/0418 VRB03KT"
+        "issued": "2026-08-03T11:00:00.000Z",
+        "raw": "TAF LEBL 031100Z 0312/0412 10009KT 9999 FEW025 TX32/0312Z TN25/0406Z PROB40 TEMPO 0316/0318 08015KT BECMG 0317/0319 VRB03KT BECMG 0400/0402 06008KT BECMG 0408/0410 13007KT"
       }
     }
   ]
