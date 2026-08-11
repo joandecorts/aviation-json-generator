@@ -1,44 +1,44 @@
 {
-  "generated_at_utc": "2026-08-11T21:10:39.717112+00:00",
+  "generated_at_utc": "2026-08-11T21:35:47.581996+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-08-11T21:00:00.000Z",
-        "raw": "METAR LEGE 112100Z 01005KT 300V050 9999 FEW050 21/15 Q1017 NOSIG",
+        "issued": "2026-08-11T21:30:00.000Z",
+        "raw": "METAR LEGE 112130Z 04004KT 010V070 9999 FEW050 21/16 Q1017 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "010",
-            "speed_kt": 5,
+            "dir": "040",
+            "speed_kt": 4,
             "gust_kt": null
           },
           "temp_c": 21,
-          "dewpoint_c": 15,
+          "dewpoint_c": 16,
           "qnh_hpa": 1017
         }
       },
       "taf": {
-        "issued": "2026-08-11T17:00:00.000Z",
-        "raw": "TAF LEGE 111700Z 1118/1218 17007KT 9999 FEW050 TX37/1213Z TN22/1206Z PROB30 TEMPO 1118/1121 30020G30KT 4000 TSRA FEW050CB BECMG 1118/1120 VRB03KT BECMG 1212/1214 18010KT"
+        "issued": "2026-08-11T11:00:00.000Z",
+        "raw": "TAF LEGE 111100Z 1112/1212 17010KT CAVOK TX37/1113Z TN22/1206Z PROB40 TEMPO 1114/1121 30020G30KT 4000 TSRA FEW040CB BECMG 1119/1121 VRB03KT"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-08-11T21:00:00.000Z",
-        "raw": "METAR LEBL 112100Z 06006KT 010V100 9999 FEW013 30/28 Q1017 NOSIG",
+        "issued": "2026-08-11T21:30:00.000Z",
+        "raw": "METAR LEBL 112130Z 07007KT 9999 FEW015 30/28 Q1017 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "060",
-            "speed_kt": 6,
+            "dir": "070",
+            "speed_kt": 7,
             "gust_kt": null
           },
           "temp_c": 30,
