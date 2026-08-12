@@ -1,29 +1,29 @@
 {
-  "generated_at_utc": "2026-08-12T11:05:28.939834+00:00",
+  "generated_at_utc": "2026-08-12T11:25:49.860264+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-08-12T11:00:00.000Z",
-        "raw": "METAR LEGE 121100Z 19006KT 140V240 9999 FEW025 31/14 Q1019 NOSIG",
+        "issued": "2026-08-12T08:00:00.000Z",
+        "raw": "METAR LEGE 120800Z VRB02KT CAVOK 24/15 Q1019 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "190",
-            "speed_kt": 6,
+            "dir": "VRB",
+            "speed_kt": 2,
             "gust_kt": null
           },
-          "temp_c": 31,
-          "dewpoint_c": 14,
+          "temp_c": 24,
+          "dewpoint_c": 15,
           "qnh_hpa": 1019
         }
       },
       "taf": {
-        "issued": "2026-08-12T05:00:00.000Z",
-        "raw": "TAF LEGE 120500Z 1206/1306 VRB03KT CAVOK TX37/1213Z TN22/1206Z BECMG 1212/1214 18010KT PROB30 TEMPO 1213/1220 4000 TSRA FEW050CB BECMG 1217/1219 VRB03KT PROB30 TEMPO 1302/1306 1500 BCFG BKN002"
+        "issued": "2026-08-12T11:00:00.000Z",
+        "raw": "TAF LEGE 121100Z 1212/1312 VRB04KT CAVOK TX37/1213Z TN21/1306Z BECMG 1212/1214 18010KT PROB30 TEMPO 1213/1220 4000 TSRA FEW050CB BECMG 1217/1219 VRB04KT PROB30 TEMPO 1302/1306 1500 BCFG BKN002 BECMG 1308/1310 03006KT"
       }
     },
     {
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-08-12T05:00:00.000Z",
-        "raw": "TAF LEBL 120500Z 1206/1306 35005KT 9999 FEW020 TX32/1212Z TN26/1305Z BECMG 1206/1209 10010KT PROB30 1211/1215 FEW025CB BECMG 1218/1220 VRB03KT"
+        "issued": "2026-08-12T11:00:00.000Z",
+        "raw": "TAF LEBL 121100Z 1212/1312 10010KT 9999 FEW020 TX33/1212Z TN25/1305Z PROB30 1212/1218 FEW025CB BECMG 1218/1220 VRB03KT BECMG 1308/1310 21010KT"
       }
     }
   ]
