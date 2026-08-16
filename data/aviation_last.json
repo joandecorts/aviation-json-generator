@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-08-16T05:25:47.232555+00:00",
+  "generated_at_utc": "2026-08-16T05:35:27.638570+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-08-16T05:00:00.000Z",
-        "raw": "METAR LEGE 160500Z VRB02KT CAVOK 17/12 Q1014 NOSIG",
+        "issued": "2026-08-16T05:30:00.000Z",
+        "raw": "METAR LEGE 160530Z 03002KT CAVOK 17/12 Q1015 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "VRB",
+            "dir": "030",
             "speed_kt": 2,
             "gust_kt": null
           },
           "temp_c": 17,
           "dewpoint_c": 12,
-          "qnh_hpa": 1014
+          "qnh_hpa": 1015
         }
       },
       "taf": {
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-08-16T04:00:00.000Z",
-        "raw": "METAR LEBL 160400Z 32012KT CAVOK 24/19 Q1014 NOSIG",
+        "issued": "2026-08-16T05:30:00.000Z",
+        "raw": "METAR LEBL 160530Z 33011G23KT 300V010 CAVOK 24/18 Q1014 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "320",
-            "speed_kt": 12,
+            "dir": "330",
+            "speed_kt": 11,
             "gust_kt": null
           },
           "temp_c": 24,
-          "dewpoint_c": 19,
+          "dewpoint_c": 18,
           "qnh_hpa": 1014
         }
       },
       "taf": {
-        "issued": "2026-08-16T05:00:00.000Z",
-        "raw": "TAF LEBL 160500Z 1606/1706 33008KT 9999 FEW020 TX33/1612Z TN25/1606Z BECMG 1608/1611 20010KT PROB40 TEMPO 1612/1614 FEW050TCU PROB30 TEMPO 1614/1618 02015G25KT 4000 TSRA SHRA FEW050CB BECMG 1616/1619 34008KT"
+        "issued": "2026-08-15T23:00:00.000Z",
+        "raw": "TAF LEBL 152300Z 1600/1624 33008KT 9999 FEW020 TX33/1612Z TN25/1605Z BECMG 1608/1611 20010KT PROB40 TEMPO 1612/1614 FEW040TCU PROB30 TEMPO 1614/1618 02015G25KT 4000 TSRA SHRA FEW040CB BECMG 1616/1619 34008KT"
       }
     }
   ]
