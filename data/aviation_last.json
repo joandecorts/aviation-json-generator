@@ -1,48 +1,48 @@
 {
-  "generated_at_utc": "2026-08-20T15:50:47.603487+00:00",
+  "generated_at_utc": "2026-08-20T16:05:38.229276+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-08-20T15:48:00.000Z",
-        "raw": "SPECI LEGE 201548Z 24005KT 180V280 9000 TSRA VCTS FEW035CB BKN090 22/19 Q1011 NOSIG",
+        "issued": "2026-08-20T16:00:00.000Z",
+        "raw": "METAR LEGE 201600Z 21005KT 170V290 9999 VCTS FEW040CB FEW050TCU BKN090 22/19 Q1010 RETSRA NOSIG",
         "fields": {
           "category": "VFR",
-          "visibility_m": null,
+          "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "240",
+            "dir": "210",
             "speed_kt": 5,
             "gust_kt": null
           },
           "temp_c": 22,
           "dewpoint_c": 19,
-          "qnh_hpa": 1011
+          "qnh_hpa": 1010
         }
       },
       "taf": {
-        "issued": "2026-08-20T13:07:00.000Z",
-        "raw": "TAF AMD LEGE 201307Z 2013/2112 18012KT 9999 FEW040 TX35/2014Z TN20/2105Z TEMPO 2014/2018 18030G43KT 1500 TSGRRA BKN040CB BECMG 2018/2020 VRB04KT TEMPO 2018/2106 03010KT TEMPO 2023/2106 3000 TSRA FEW040CB TEMPO 2109/2112 18012KT"
+        "issued": "2026-08-20T05:00:00.000Z",
+        "raw": "TAF LEGE 200500Z 2006/2106 VRB04KT 9999 FEW020 TX35/2013Z TN22/2006Z BECMG 2012/2014 20012KT PROB30 TEMPO 2012/2024 4000 TSRA SHRA FEW090CB TEMPO 2014/2020 20020G30KT PROB40 TEMPO 2015/2018 31025G45KT 2000 +SHRA +TSRAGR SCT090CB BECMG 2018/2020 VRB03KT"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-08-20T15:30:00.000Z",
-        "raw": "METAR LEBL 201530Z 08009KT 9999 -RA FEW025 30/26 Q1010 TEMPO 23010G30KT 4000 TSRA FEW020CB",
+        "issued": "2026-08-20T16:00:00.000Z",
+        "raw": "METAR LEBL 201600Z 07009KT 040V100 9999 BKN025 30/25 Q1010 RERA NOSIG",
         "fields": {
-          "category": "VFR",
+          "category": "MVFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "080",
+            "dir": "070",
             "speed_kt": 9,
             "gust_kt": null
           },
           "temp_c": 30,
-          "dewpoint_c": 26,
+          "dewpoint_c": 25,
           "qnh_hpa": 1010
         }
       },
