@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-25T22:35:25.895631+00:00",
+  "generated_at_utc": "2026-08-25T22:40:34.297240+00:00",
   "airports": [
     {
       "icao": "LEGE",
@@ -30,8 +30,8 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-08-25T22:00:00.000Z",
-        "raw": "METAR LEBL 252200Z VRB01KT 9999 FEW030 27/18 Q1014 NOSIG",
+        "issued": "2026-08-25T22:30:00.000Z",
+        "raw": "METAR LEBL 252230Z VRB01KT 9999 FEW030 26/18 Q1014 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
@@ -41,7 +41,7 @@
             "speed_kt": 1,
             "gust_kt": null
           },
-          "temp_c": 27,
+          "temp_c": 26,
           "dewpoint_c": 18,
           "qnh_hpa": 1014
         }
