@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-08-28T11:25:38.316395+00:00",
+  "generated_at_utc": "2026-08-28T11:35:46.118044+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-08-28T11:00:00.000Z",
-        "raw": "METAR LEGE 281100Z 21005KT 170V270 CAVOK 26/01 Q1016 NOSIG",
+        "issued": "2026-08-28T11:30:00.000Z",
+        "raw": "METAR LEGE 281130Z 20006KT 150V230 CAVOK 27/02 Q1016 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "210",
-            "speed_kt": 5,
+            "dir": "200",
+            "speed_kt": 6,
             "gust_kt": null
           },
-          "temp_c": 26,
-          "dewpoint_c": 1,
+          "temp_c": 27,
+          "dewpoint_c": 2,
           "qnh_hpa": 1016
         }
       },
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-08-28T11:00:00.000Z",
-        "raw": "METAR LEBL 281100Z 31012G22KT 280V340 CAVOK 30/05 Q1017 NOSIG",
+        "issued": "2026-08-28T11:30:00.000Z",
+        "raw": "METAR LEBL 281130Z 30009KT 260V340 CAVOK 31/07 Q1017 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "310",
-            "speed_kt": 12,
+            "dir": "300",
+            "speed_kt": 9,
             "gust_kt": null
           },
-          "temp_c": 30,
-          "dewpoint_c": 5,
+          "temp_c": 31,
+          "dewpoint_c": 7,
           "qnh_hpa": 1017
         }
       },
       "taf": {
-        "issued": "2026-08-28T11:00:00.000Z",
-        "raw": "TAF LEBL 281100Z 2812/2912 28007KT 9999 FEW060 TX32/2812Z TN21/2905Z BECMG 2812/2814 22011KT BECMG 2819/2822 27005KT PROB40 TEMPO 2822/2902 06007KT BECMG 2902/2904 34007KT BECMG 2909/2911 13007KT"
+        "issued": "2026-08-28T05:00:00.000Z",
+        "raw": "TAF LEBL 280500Z 2806/2906 32009KT 9999 FEW060 TX32/2812Z TN24/2905Z TEMPO 2806/2809 32015G25KT PROB30 TEMPO 2806/2810 TSRA FEW090CB BECMG 2811/2813 22010KT TEMPO 2818/2822 28007KT BECMG 2822/2824 35007KT"
       }
     }
   ]
