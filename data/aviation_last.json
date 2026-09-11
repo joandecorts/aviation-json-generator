@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-11T06:10:31.619856+00:00",
+  "generated_at_utc": "2026-09-11T06:35:30.167773+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-09-11T06:00:00.000Z",
-        "raw": "METAR LEGE 110600Z 00000KT CAVOK 15/13 Q1019 NOSIG",
+        "issued": "2026-09-11T06:30:00.000Z",
+        "raw": "METAR LEGE 110630Z 00000KT CAVOK 16/13 Q1019 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
@@ -16,7 +16,7 @@
             "speed_kt": 0,
             "gust_kt": null
           },
-          "temp_c": 15,
+          "temp_c": 16,
           "dewpoint_c": 13,
           "qnh_hpa": 1019
         }
@@ -30,15 +30,15 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-09-11T06:00:00.000Z",
-        "raw": "METAR LEBL 110600Z 33009KT 9999 FEW020 18/13 Q1019 NOSIG",
+        "issued": "2026-09-11T06:30:00.000Z",
+        "raw": "METAR LEBL 110630Z 33010G23KT 270V010 9999 FEW020 18/13 Q1019 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
             "dir": "330",
-            "speed_kt": 9,
+            "speed_kt": 10,
             "gust_kt": null
           },
           "temp_c": 18,
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-09-11T05:00:00.000Z",
-        "raw": "TAF LEBL 110500Z 1106/1206 34008KT 9999 FEW020 TX28/1112Z TN19/1205Z TEMPO 1106/1108 34015G25KT PROB40 TEMPO 1106/1109 FEW020TCU PROB30 TEMPO 1106/1109 3000 SHRA FEW020TCU BECMG 1109/1111 22010KT BECMG 1118/1120 34008KT PROB30 TEMPO 1200/1206 3000 SHRA FEW020TCU"
+        "issued": "2026-09-11T06:33:00.000Z",
+        "raw": "TAF AMD LEBL 110633Z 1106/1206 34008KT 9999 FEW020 TX28/1112Z TN18/1205Z TEMPO 1106/1108 34015G25KT PROB30 TEMPO 1106/1109 3000 SHRA FEW020TCU BECMG 1109/1111 22010KT PROB30 1109/1112 10010KT BECMG 1118/1120 34008KT PROB30 TEMPO 1200/1206 3000 SHRA FEW020TCU"
       }
     }
   ]
