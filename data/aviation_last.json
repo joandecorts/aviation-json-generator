@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-09-18T23:25:53.902455+00:00",
+  "generated_at_utc": "2026-09-18T23:30:43.119656+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-09-18T22:00:00.000Z",
-        "raw": "METAR LEGE 182200Z 00000KT CAVOK 16/14 Q1019 NOSIG",
+        "issued": "2026-09-18T23:00:00.000Z",
+        "raw": "METAR LEGE 182300Z VRB01KT CAVOK 15/13 Q1020 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "000",
-            "speed_kt": 0,
+            "dir": "VRB",
+            "speed_kt": 1,
             "gust_kt": null
           },
-          "temp_c": 16,
-          "dewpoint_c": 14,
-          "qnh_hpa": 1019
+          "temp_c": 15,
+          "dewpoint_c": 13,
+          "qnh_hpa": 1020
         }
       },
       "taf": {
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-09-18T17:00:00.000Z",
-        "raw": "TAF LEBL 181700Z 1818/1918 20008KT 9999 FEW025 TX26/1912Z TN18/1906Z TEMPO 1818/1824 VRB03KT BECMG 1822/1824 35008KT BECMG 1908/1911 20010KT"
+        "issued": "2026-09-18T23:00:00.000Z",
+        "raw": "TAF LEBL 182300Z 1900/1924 34008KT 9999 SCT030 TX27/1912Z TN17/1906Z PROB40 TEMPO 1905/1909 34015G25KT BECMG 1909/1912 20010KT BECMG 1917/1919 VRB04KT BECMG 1922/1924 34008KT"
       }
     }
   ]
