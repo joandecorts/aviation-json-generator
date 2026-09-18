@@ -1,22 +1,22 @@
 {
-  "generated_at_utc": "2026-09-18T05:35:47.996934+00:00",
+  "generated_at_utc": "2026-09-18T05:40:38.896022+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-09-18T05:00:00.000Z",
-        "raw": "METAR LEGE 180500Z VRB01KT 9999 BKN050 15/13 Q1016 NOSIG",
+        "issued": "2026-09-18T05:30:00.000Z",
+        "raw": "METAR LEGE 180530Z VRB02KT 9999 OVC050 16/13 Q1016 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
             "dir": "VRB",
-            "speed_kt": 1,
+            "speed_kt": 2,
             "gust_kt": null
           },
-          "temp_c": 15,
+          "temp_c": 16,
           "dewpoint_c": 13,
           "qnh_hpa": 1016
         }
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-09-18T05:00:00.000Z",
-        "raw": "METAR LEBL 180500Z 28005KT 240V300 9999 DZ FEW010 BKN024 20/19 Q1016 NOSIG",
+        "issued": "2026-09-18T05:30:00.000Z",
+        "raw": "METAR LEBL 180530Z 31004KT 260V360 9999 FEW020 19/18 Q1016 NOSIG",
         "fields": {
-          "category": "MVFR",
+          "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "280",
-            "speed_kt": 5,
+            "dir": "310",
+            "speed_kt": 4,
             "gust_kt": null
           },
-          "temp_c": 20,
-          "dewpoint_c": 19,
+          "temp_c": 19,
+          "dewpoint_c": 18,
           "qnh_hpa": 1016
         }
       },
       "taf": {
-        "issued": "2026-09-17T23:00:00.000Z",
-        "raw": "TAF LEBL 172300Z 1800/1824 34008KT 9999 FEW030 TX25/1812Z TN18/1806Z PROB40 TEMPO 1800/1810 07010KT 4000 SHRA FEW030TCU PROB30 TEMPO 1802/1806 3000 TSRA FEW030CB BECMG 1808/1810 VRB03KT BECMG 1811/1813 20008KT BECMG 1817/1819 35006KT"
+        "issued": "2026-09-18T05:00:00.000Z",
+        "raw": "TAF LEBL 180500Z 1806/1906 34008KT 9999 SCT030 TX25/1812Z TN18/1806Z PROB40 TEMPO 1806/1810 07010KT 4000 SHRA FEW030TCU BECMG 1808/1810 VRB03KT BECMG 1811/1813 20008KT BECMG 1817/1819 35006KT"
       }
     }
   ]
