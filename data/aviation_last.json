@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-09-28T05:10:31.591153+00:00",
+  "generated_at_utc": "2026-09-28T05:25:29.527422+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-09-28T05:00:00.000Z",
-        "raw": "METAR LEGE 280500Z 00000KT 4200 2000SW BR MIFG NSC 16/16 Q1019 NOSIG",
+        "issued": "2026-09-28T05:21:00.000Z",
+        "raw": "SPECI LEGE 280521Z 28001KT 2200 1000 BR PRFG FEW001 15/15 Q1019 NOSIG",
         "fields": {
           "category": "IFR",
           "visibility_m": null,
           "ceiling_ft": null,
           "wind": {
-            "dir": "000",
-            "speed_kt": 0,
+            "dir": "280",
+            "speed_kt": 1,
             "gust_kt": null
           },
-          "temp_c": 16,
-          "dewpoint_c": 16,
+          "temp_c": 15,
+          "dewpoint_c": 15,
           "qnh_hpa": 1019
         }
       },
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-09-27T23:00:00.000Z",
-        "raw": "TAF LEBL 272300Z 2800/2824 13008KT 9999 BKN020 TX28/2812Z TN21/2806Z TEMPO 2800/2810 35005KT PROB40 TEMPO 2806/2812 3000 RA SHRA FEW020CB PROB30 TEMPO 2812/2818 RA FEW020TCU"
+        "issued": "2026-09-28T05:00:00.000Z",
+        "raw": "TAF LEBL 280500Z 2806/2906 12008KT 9999 BKN020 TX28/2812Z TN21/2806Z TEMPO 2806/2810 35005KT PROB40 TEMPO 2806/2812 3000 RA SHRA FEW015CB PROB30 TEMPO 2812/2824 RA FEW020TCU PROB40 TEMPO 2818/2822 05008KT"
       }
     }
   ]
