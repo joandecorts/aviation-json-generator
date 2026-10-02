@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-02T11:05:24.042603+00:00",
+  "generated_at_utc": "2026-10-02T11:10:32.517246+00:00",
   "airports": [
     {
       "icao": "LEGE",
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-10-02T10:38:00.000Z",
-        "raw": "SPECI LEBL 021038Z 14003KT 080V240 2500 +TSRA FEW020 SCT024 BKN029 21/18 Q1027 NOSIG",
+        "issued": "2026-10-02T11:00:00.000Z",
+        "raw": "METAR LEBL 021100Z VRB01KT 4400 TSRA FEW015 SCT026 BKN035 21/19 Q1027 NOSIG",
         "fields": {
           "category": "IFR",
           "visibility_m": null,
           "ceiling_ft": null,
           "wind": {
-            "dir": "140",
-            "speed_kt": 3,
+            "dir": "VRB",
+            "speed_kt": 1,
             "gust_kt": null
           },
           "temp_c": 21,
-          "dewpoint_c": 18,
+          "dewpoint_c": 19,
           "qnh_hpa": 1027
         }
       },
       "taf": {
-        "issued": "2026-10-02T10:28:00.000Z",
-        "raw": "TAF AMD LEBL 021028Z 0210/0306 06012KT 9999 FEW015 SCT030 TX26/0212Z TN20/0306Z TEMPO 0210/0213 3000 TSRA FEW020CB BECMG 0214/0216 07009KT PROB40 TEMPO 0300/0306 SHRA FEW020TCU"
+        "issued": "2026-10-02T10:57:00.000Z",
+        "raw": "TAF AMD LEBL 021057Z 0210/0306 06012KT 9999 FEW015 SCT030 TX26/0212Z TN20/0306Z TEMPO 0210/0213 3000 TSRA FEW020CB BECMG 0214/0216 07009KT PROB40 TEMPO 0300/0306 SHRA FEW020TCU"
       }
     }
   ]
