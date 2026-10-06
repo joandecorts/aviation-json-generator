@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-10-06T20:20:30.155881+00:00",
+  "generated_at_utc": "2026-10-06T20:35:25.956540+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-10-06T20:13:00.000Z",
-        "raw": "SPECI LEGE 062013Z 21004KT 8000 RA VCTS FEW010CB SCT032 19/18 Q1015 TEMPO 2000 TSRA",
+        "issued": "2026-10-06T20:30:00.000Z",
+        "raw": "METAR LEGE 062030Z VRB02KT 6000 TSRA FEW010CB SCT032 19/19 Q1014 NOSIG",
         "fields": {
           "category": "MVFR",
           "visibility_m": null,
           "ceiling_ft": null,
           "wind": {
-            "dir": "210",
-            "speed_kt": 4,
+            "dir": "VRB",
+            "speed_kt": 2,
             "gust_kt": null
           },
           "temp_c": 19,
-          "dewpoint_c": 18,
-          "qnh_hpa": 1015
+          "dewpoint_c": 19,
+          "qnh_hpa": 1014
         }
       },
       "taf": {
@@ -30,20 +30,20 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-10-06T20:00:00.000Z",
-        "raw": "METAR LEBL 062000Z 20005KT 160V240 5000 +SHRA FEW008 SCT010TCU 19/18 Q1015 BECMG 9999 NSW",
+        "issued": "2026-10-06T20:30:00.000Z",
+        "raw": "METAR LEBL 062030Z 12004KT 060V200 1500 -SHRA FEW010 SCT011TCU BKN015 ///// Q1014 RERA BECMG 9999 NSW",
         "fields": {
-          "category": "MVFR",
+          "category": "LIFR",
           "visibility_m": null,
           "ceiling_ft": null,
           "wind": {
-            "dir": "200",
-            "speed_kt": 5,
+            "dir": "120",
+            "speed_kt": 4,
             "gust_kt": null
           },
-          "temp_c": 19,
-          "dewpoint_c": 18,
-          "qnh_hpa": 1015
+          "temp_c": null,
+          "dewpoint_c": null,
+          "qnh_hpa": 1014
         }
       },
       "taf": {
