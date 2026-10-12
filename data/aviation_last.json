@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-12T18:05:49.470798+00:00",
+  "generated_at_utc": "2026-10-12T18:10:29.896517+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-10-12T17:30:00.000Z",
-        "raw": "METAR LEGE 121730Z 22004KT 190V260 9999 FEW042 20/17 Q1019 NOSIG",
+        "issued": "2026-10-12T18:00:00.000Z",
+        "raw": "METAR LEGE 121800Z VRB01KT 9999 FEW042 20/17 Q1019 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "220",
-            "speed_kt": 4,
+            "dir": "VRB",
+            "speed_kt": 1,
             "gust_kt": null
           },
           "temp_c": 20,
@@ -30,8 +30,8 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-10-12T17:30:00.000Z",
-        "raw": "METAR LEBL 121730Z 12004KT 090V150 9999 BKN023 BKN048 23/18 Q1019 NOSIG",
+        "issued": "2026-10-12T18:00:00.000Z",
+        "raw": "METAR LEBL 121800Z 12004KT 100V160 9999 SCT021 BKN024 BKN027 23/18 Q1019 NOSIG",
         "fields": {
           "category": "MVFR",
           "visibility_m": 10000,
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-10-12T11:00:00.000Z",
-        "raw": "TAF LEBL 121100Z 1212/1312 12010KT 9999 BKN020 TX24/1212Z TN17/1306Z BECMG 1218/1222 9999 FEW020 BECMG 1219/1221 34007KT BECMG 1308/1311 13010KT"
+        "issued": "2026-10-12T17:00:00.000Z",
+        "raw": "TAF LEBL 121700Z 1218/1318 14008KT 9999 FEW030 TX24/1312Z TN17/1306Z TEMPO 1222/1301 VRB03KT BECMG 1300/1302 34007KT BECMG 1307/1310 10006KT BECMG 1313/1316 18005KT"
       }
     }
   ]
