@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-15T06:10:33.340259+00:00",
+  "generated_at_utc": "2026-10-15T06:15:30.371334+00:00",
   "airports": [
     {
       "icao": "LEGE",
@@ -22,8 +22,8 @@
         }
       },
       "taf": {
-        "issued": "2026-10-15T05:00:00.000Z",
-        "raw": "TAF LEGE 150500Z 1506/1606 18008KT CAVOK TX26/1513Z TN15/1606Z BECMG 1518/1520 VRB04KT PROB40 TEMPO 1522/1524 1500 BR BKN005"
+        "issued": "2026-10-15T06:11:00.000Z",
+        "raw": "TAF AMD LEGE 150611Z 1506/1606 18008KT CAVOK TX26/1513Z TN15/1606Z BECMG 1518/1520 VRB04KT TEMPO 1506/1508 0500 FG BCFG BKN004 PROB40 TEMPO 1522/1524 1500 BR BKN005"
       }
     },
     {
