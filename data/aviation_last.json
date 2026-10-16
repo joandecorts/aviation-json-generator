@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-16T04:35:22.896300+00:00",
+  "generated_at_utc": "2026-10-16T04:40:30.017632+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-10-16T04:00:00.000Z",
-        "raw": "METAR LEGE 160400Z 00000KT 0800 R19/0400N R01/0550N FG VV001 16/15 Q1023 NOSIG",
+        "issued": "2026-10-16T04:30:00.000Z",
+        "raw": "METAR LEGE 160430Z 00000KT 0500 R19/0450N R01/0400N FG VV001 15/14 Q1023 NOSIG",
         "fields": {
           "category": "LIFR",
           "visibility_m": null,
@@ -16,14 +16,14 @@
             "speed_kt": 0,
             "gust_kt": null
           },
-          "temp_c": 16,
-          "dewpoint_c": 15,
+          "temp_c": 15,
+          "dewpoint_c": 14,
           "qnh_hpa": 1023
         }
       },
       "taf": {
-        "issued": "2026-10-15T23:00:00.000Z",
-        "raw": "TAF LEGE 152300Z 1600/1624 VRB04KT CAVOK TX26/1613Z TN15/1606Z PROB40 TEMPO 1600/1609 1500 BR BKN005 PROB30 TEMPO 1600/1608 0500 BCFG VV002 TEMPO 1618/1624 1500 BR BKN005 PROB40 TEMPO 1620/1624 0200 FG VV001"
+        "issued": "2026-10-16T04:35:00.000Z",
+        "raw": "TAF AMD LEGE 160435Z 1604/1624 VRB04KT CAVOK TX26/1613Z TN15/1606Z PROB40 TEMPO 1604/1609 1500 BR BKN005 TEMPO 1604/1608 0800 FG VV001 TEMPO 1618/1624 1500 BR BKN005 PROB40 TEMPO 1620/1624 0200 FG VV001"
       }
     },
     {
