@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-10-16T12:05:27.346800+00:00",
+  "generated_at_utc": "2026-10-16T12:10:39.348060+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-10-16T11:30:00.000Z",
-        "raw": "METAR LEGE 161130Z 06002KT 9999 FEW030 22/16 Q1022 NOSIG",
+        "issued": "2026-10-16T12:00:00.000Z",
+        "raw": "METAR LEGE 161200Z 07001KT CAVOK 24/16 Q1021 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "060",
-            "speed_kt": 2,
+            "dir": "070",
+            "speed_kt": 1,
             "gust_kt": null
           },
-          "temp_c": 22,
+          "temp_c": 24,
           "dewpoint_c": 16,
-          "qnh_hpa": 1022
+          "qnh_hpa": 1021
         }
       },
       "taf": {
