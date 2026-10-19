@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-10-19T10:45:32.339608+00:00",
+  "generated_at_utc": "2026-10-19T11:05:27.845954+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-10-19T10:30:00.000Z",
-        "raw": "METAR LEGE 191030Z 03009KT 9999 BKN038 BKN082 15/13 Q1014 NOSIG",
+        "issued": "2026-10-19T11:00:00.000Z",
+        "raw": "METAR LEGE 191100Z 02006KT 350V060 9999 BKN032 BKN082 15/12 Q1014 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "030",
-            "speed_kt": 9,
+            "dir": "020",
+            "speed_kt": 6,
             "gust_kt": null
           },
           "temp_c": 15,
-          "dewpoint_c": 13,
+          "dewpoint_c": 12,
           "qnh_hpa": 1014
         }
       },
@@ -47,8 +47,8 @@
         }
       },
       "taf": {
-        "issued": "2026-10-19T05:00:00.000Z",
-        "raw": "TAF LEBL 190500Z 1906/2006 35010KT 9999 FEW030 BKN050 TX20/1912Z TN13/1906Z PROB40 TEMPO 1906/1912 03015G25KT 3000 SHRA RA FEW020TCU PROB40 TEMPO 1910/2006 VRB15G30KT 3000 TSRA FEW015CB TEMPO 1912/2006 03015G25KT 3000 SHRA RA FEW020TCU TEMPO 1919/1924 10010KT BECMG 1923/2001 18014KT BECMG 2004/2006 34010KT"
+        "issued": "2026-10-19T10:58:00.000Z",
+        "raw": "TAF AMD LEBL 191058Z 1910/2006 35010KT 9999 FEW030 BKN050 TX20/1912Z TN13/2006Z BECMG 1912/1914 06012KT TEMPO 1912/1920 06015G25KT TEMPO 1912/2006 3000 RA BKN010 TEMPO 1912/2006 VRB15G30KT 3000 TSRA FEW015CB PROB40 TEMPO 1915/1918 1500 +TSRA BKN015CB BECMG 1919/1921 18006KT PROB40 TEMPO 2000/2005 18015G25KT 1500 +TSRA SCT015CB TEMPO 2000/2006 34010KT"
       }
     }
   ]
