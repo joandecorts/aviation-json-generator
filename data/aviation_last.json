@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-03T05:25:30.647875+00:00",
+  "generated_at_utc": "2026-11-03T05:31:28.414125+00:00",
   "airports": [
     {
       "icao": "LEGE",
@@ -22,8 +22,8 @@
         }
       },
       "taf": {
-        "issued": "2026-11-02T23:00:00.000Z",
-        "raw": "TAF LEGE 022300Z 0300/0324 VRB04KT 9999 FEW040 TX16/0313Z TN08/0306Z"
+        "issued": "2026-11-03T05:00:00.000Z",
+        "raw": "TAF LEGE 030500Z 0306/0406 VRB04KT 9999 FEW040 TX16/0313Z TN06/0406Z PROB40 TEMPO 0400/0406 SHRA FEW030TCU"
       }
     },
     {
