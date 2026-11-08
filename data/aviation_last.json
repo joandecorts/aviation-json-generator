@@ -1,48 +1,48 @@
 {
-  "generated_at_utc": "2026-11-08T17:30:52.884508+00:00",
+  "generated_at_utc": "2026-11-08T17:35:59.208360+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-11-08T17:00:00.000Z",
-        "raw": "METAR LEGE 081700Z 19007KT CAVOK 16/14 Q1019 NOSIG",
+        "issued": "2026-11-08T17:30:00.000Z",
+        "raw": "METAR LEGE 081730Z 18003KT 120V220 CAVOK 15/13 Q1019 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "190",
-            "speed_kt": 7,
+            "dir": "180",
+            "speed_kt": 3,
             "gust_kt": null
           },
-          "temp_c": 16,
-          "dewpoint_c": 14,
+          "temp_c": 15,
+          "dewpoint_c": 13,
           "qnh_hpa": 1019
         }
       },
       "taf": {
-        "issued": "2026-11-08T17:00:00.000Z",
-        "raw": "TAF LEGE 081700Z 0818/0918 21007KT 9999 FEW020 TX24/0913Z TN15/0906Z PROB30 TEMPO 0900/0906 3000 BR BKN010"
+        "issued": "2026-11-08T11:00:00.000Z",
+        "raw": "TAF LEGE 081100Z 0812/0912 21012KT 9999 FEW020 TX22/0813Z TN15/0906Z PROB30 TEMPO 0812/0818 20015G25KT BECMG 0817/0819 21007KT PROB30 TEMPO 0900/0906 3000 BR BKN010"
       }
     },
     {
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-11-08T17:00:00.000Z",
-        "raw": "METAR LEBL 081700Z 21005KT 9999 FEW022 19/14 Q1020 NOSIG",
+        "issued": "2026-11-08T17:30:00.000Z",
+        "raw": "METAR LEBL 081730Z 23005KT 9999 FEW022 18/15 Q1020 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "210",
+            "dir": "230",
             "speed_kt": 5,
             "gust_kt": null
           },
-          "temp_c": 19,
-          "dewpoint_c": 14,
+          "temp_c": 18,
+          "dewpoint_c": 15,
           "qnh_hpa": 1020
         }
       },
