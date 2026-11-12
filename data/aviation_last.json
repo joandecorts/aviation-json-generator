@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-11-12T19:05:33.363261+00:00",
+  "generated_at_utc": "2026-11-12T19:35:28.663364+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-11-12T19:00:00.000Z",
-        "raw": "METAR LEGE 121900Z VRB02KT CAVOK 16/13 Q0995 NOSIG",
+        "issued": "2026-11-12T19:30:00.000Z",
+        "raw": "METAR LEGE 121930Z 02003KT 300V060 CAVOK 15/12 Q0995 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "VRB",
-            "speed_kt": 2,
+            "dir": "020",
+            "speed_kt": 3,
             "gust_kt": null
           },
-          "temp_c": 16,
-          "dewpoint_c": 13,
+          "temp_c": 15,
+          "dewpoint_c": 12,
           "qnh_hpa": 995
         }
       },
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-11-12T19:00:00.000Z",
-        "raw": "METAR LEBL 121900Z 26020KT CAVOK 21/11 Q0997 NOSIG",
+        "issued": "2026-11-12T19:30:00.000Z",
+        "raw": "METAR LEBL 121930Z 25019KT CAVOK 20/11 Q0996 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "260",
-            "speed_kt": 20,
+            "dir": "250",
+            "speed_kt": 19,
             "gust_kt": null
           },
-          "temp_c": 21,
+          "temp_c": 20,
           "dewpoint_c": 11,
-          "qnh_hpa": 997
+          "qnh_hpa": 996
         }
       },
       "taf": {
-        "issued": "2026-11-12T17:00:00.000Z",
-        "raw": "TAF LEBL 121700Z 1218/1318 27013KT 9999 FEW020 TX24/1313Z TN16/1306Z TEMPO 1218/1302 27015G25KT BECMG 1301/1304 33008KT BECMG 1312/1314 VRB04KT"
+        "issued": "2026-11-12T19:32:00.000Z",
+        "raw": "TAF AMD LEBL 121932Z 1219/1318 27013KT 9999 FEW020 TX24/1313Z TN16/1306Z TEMPO 1219/1302 27015G25KT BECMG 1304/1306 33008KT BECMG 1312/1314 VRB04KT"
       }
     }
   ]
