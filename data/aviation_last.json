@@ -1,44 +1,44 @@
 {
-  "generated_at_utc": "2026-11-17T08:25:28.180658+00:00",
+  "generated_at_utc": "2026-11-17T08:40:39.755952+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-11-17T08:00:00.000Z",
-        "raw": "METAR LEGE 170800Z 22015KT 190V260 CAVOK 17/09 Q1005 WS R19 NOSIG",
-        "fields": {
-          "category": "VFR",
-          "visibility_m": 10000,
-          "ceiling_ft": null,
-          "wind": {
-            "dir": "220",
-            "speed_kt": 15,
-            "gust_kt": null
-          },
-          "temp_c": 17,
-          "dewpoint_c": 9,
-          "qnh_hpa": 1005
-        }
-      },
-      "taf": {
-        "issued": "2026-11-17T05:00:00.000Z",
-        "raw": "TAF LEGE 170500Z 1706/1806 22008KT 9999 FEW030 TX22/1713Z TN14/1706Z TEMPO 1717/1723 25015G25KT BECMG 1720/1722 30008KT TEMPO 1800/1806 30018G28KT BECMG 1804/1806 VRB04KT"
-      }
-    },
-    {
-      "icao": "LEBL",
-      "name": "Barcelona – El Prat",
-      "metar": {
-        "issued": "2026-11-17T08:00:00.000Z",
-        "raw": "METAR LEBL 170800Z 23009KT CAVOK 17/12 Q1010 NOSIG",
+        "issued": "2026-11-17T08:30:00.000Z",
+        "raw": "METAR LEGE 170830Z 23017G27KT 190V270 9999 FEW030 18/09 Q1005 WS R19 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
             "dir": "230",
-            "speed_kt": 9,
+            "speed_kt": 17,
+            "gust_kt": null
+          },
+          "temp_c": 18,
+          "dewpoint_c": 9,
+          "qnh_hpa": 1005
+        }
+      },
+      "taf": {
+        "issued": "2026-11-17T08:36:00.000Z",
+        "raw": "TAF AMD LEGE 170836Z 1708/1806 22010KT 9999 FEW030 TX22/1713Z TN13/1806Z TEMPO 1708/1712 25015G28KT TEMPO 1717/1801 25015G25KT BECMG 1720/1722 30008KT TEMPO 1800/1806 30018G28KT BECMG 1804/1806 VRB04KT"
+      }
+    },
+    {
+      "icao": "LEBL",
+      "name": "Barcelona – El Prat",
+      "metar": {
+        "issued": "2026-11-17T08:30:00.000Z",
+        "raw": "METAR LEBL 170830Z 21007KT 180V240 CAVOK 17/12 Q1010 NOSIG",
+        "fields": {
+          "category": "VFR",
+          "visibility_m": 10000,
+          "ceiling_ft": null,
+          "wind": {
+            "dir": "210",
+            "speed_kt": 7,
             "gust_kt": null
           },
           "temp_c": 17,
