@@ -1,18 +1,18 @@
 {
-  "generated_at_utc": "2026-11-23T12:01:27.526275+00:00",
+  "generated_at_utc": "2026-11-23T12:05:43.544254+00:00",
   "airports": [
     {
       "icao": "LEGE",
       "name": "Girona – Costa Brava",
       "metar": {
-        "issued": "2026-11-23T11:30:00.000Z",
-        "raw": "METAR LEGE 231130Z VRB02KT 9999 BKN030 16/08 Q1024 NOSIG",
+        "issued": "2026-11-23T12:00:00.000Z",
+        "raw": "METAR LEGE 231200Z 07002KT 9999 BKN035 16/08 Q1024 NOSIG",
         "fields": {
-          "category": "MVFR",
+          "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "VRB",
+            "dir": "070",
             "speed_kt": 2,
             "gust_kt": null
           },
@@ -30,25 +30,25 @@
       "icao": "LEBL",
       "name": "Barcelona – El Prat",
       "metar": {
-        "issued": "2026-11-23T11:30:00.000Z",
-        "raw": "METAR LEBL 231130Z 31011KT 9999 FEW030 16/05 Q1025 NOSIG",
+        "issued": "2026-11-23T12:00:00.000Z",
+        "raw": "METAR LEBL 231200Z 33010KT CAVOK 17/05 Q1024 NOSIG",
         "fields": {
           "category": "VFR",
           "visibility_m": 10000,
           "ceiling_ft": null,
           "wind": {
-            "dir": "310",
-            "speed_kt": 11,
+            "dir": "330",
+            "speed_kt": 10,
             "gust_kt": null
           },
-          "temp_c": 16,
+          "temp_c": 17,
           "dewpoint_c": 5,
-          "qnh_hpa": 1025
+          "qnh_hpa": 1024
         }
       },
       "taf": {
-        "issued": "2026-11-23T05:00:00.000Z",
-        "raw": "TAF LEBL 230500Z 2306/2406 35008KT CAVOK TX19/2312Z TN11/2306Z TEMPO 2310/2320 VRB04KT"
+        "issued": "2026-11-23T11:00:00.000Z",
+        "raw": "TAF LEBL 231100Z 2312/2412 35008KT 9999 FEW030 TX18/2312Z TN10/2406Z BECMG 2312/2314 VRB04KT PROB40 TEMPO 2318/2324 13010KT TEMPO 2400/2409 33010KT PROB30 TEMPO 2406/2412 RA SHRA FEW020TCU BKN030"
       }
     }
   ]
